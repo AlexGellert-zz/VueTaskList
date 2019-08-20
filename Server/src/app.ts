@@ -19,5 +19,5 @@ app.get('/', async (req, res) => {
 })
 
 app.listen(9000, () => {
-   console.log("Server has started");
+   console.log("Server has started http://localhost:9000");
 });
