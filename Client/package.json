@@ -23,6 +23,9 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0"
   }
 }
