@@ -6,7 +6,7 @@ const app = express();
 const db = pgp()({
    host: "localhost",   
    port: 5432,
-   database: "database",
+   database: "VueDB",
    user: "postgres",
    password: "nova"
 });
@@ -14,7 +14,7 @@ const db = pgp()({
 app.use(cors());
 
 app.get('/', async (req, res) => {
-   let data = await db.any('SELECT * FROM public.table');
+   let data = await db.any('SELECT * FROM "VueTable"');
    res.send(data);
 })
 
