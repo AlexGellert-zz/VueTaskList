@@ -1,0 +1,203 @@
+body {
+    text-align: center
+}
+
+button {
+    cursor: pointer
+}
+
+button#action_button {
+    border: none;
+    color: none;
+    background: 0 0;
+    float: right
+}
+
+button#arrows {
+    border: none;
+    color: none;
+    background: 0 0
+}
+
+div#action {
+    float: right
+}
+
+div#list_wrapper {
+    display: flex;
+}
+
+div#left_list {
+    border-radius: 25px;
+    border: 2px solid #000;
+    text-align: left;
+    background: #87ceeb;
+    flex-grow: 1;
+    padding-left: 5px
+}
+
+div#center_list {
+    border-radius: 25px;
+    border: 2px solid #000;
+    background: #90ee90;
+    flex-grow: 2;
+    text-align: left;
+    padding-left: 5px;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+div#right_list {
+    border-radius: 25px;
+    border: 2px solid #000;
+    background: pink;
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 5px
+}
+
+span {
+    background-color: #fff
+}
+
+.fa-angle-up {
+    color: #ff0;
+    padding-left: 5px;
+    border-radius: 5px
+}
+
+.fa-angle-double-up {
+    color: orange;
+    padding-left: 5px;
+    border-radius: 5px
+}
+
+.fa-chevron-circle-up {
+    color: red;
+    padding-left: 5px;
+    border-radius: 5px
+}
+
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+
+/* Custom */
+
+button {
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    top: 0;
+    font-size: 15px;
+    font-family: "Open Sans", Helvetica;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba( 28, 227, 125, 0.5);
+    background: rgba( 22, 230, 137, 1);
+    color: #fff;
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+button:active {
+    top: 0px;
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0);
+    background: rgba( 20, 224, 133, 1);
+}
+
+
+/*Styling Selectbox*/
+
+.dropdown {
+    width: 175px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    text-align: left
+}
+
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+
+.dropdown .select>i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+
+.dropdown:active {
+    background-color: #f8f8f8
+}
+
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 5px 5px 0 0;
+    background-color: #f8f8f8
+}
+
+.dropdown.active .select>i {
+    transform: rotate(-90deg)
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 5px 5px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9
+}
+
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
