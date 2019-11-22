@@ -1,7 +1,7 @@
 # Vue Task List
 Completed Vue Task List that is hosted on https://www.alexgellert.com/vuelist.html
 
-#Functions
+# Functions
 ```
 1. Choose Level of Importance
 2. Add to Task List
