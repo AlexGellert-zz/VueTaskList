@@ -1,3 +1,10 @@
+# Installation
+```
+have node.js installed
+npm install
+npm run server
+```
+
 # Vue Task List
 Completed Vue Task List that is hosted on https://www.alexgellert.com/vuelist.html
 
