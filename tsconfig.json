@@ -1,13 +1,15 @@
 {
-    "compilerOptions": {
-      "experimentalDecorators": true
-    },
-    "include": [
-      "src/**/*.ts",
-      "src/**/*.vue",
-    ],
-    "exclude": [
-      "node_modules"
-    ]
-   }
-   
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+ }
+ 

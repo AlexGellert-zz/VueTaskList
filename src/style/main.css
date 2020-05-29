@@ -1,0 +1,65 @@
+.col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fa-angle-up {
+    color: #ff0;
+    height: 1.5em;
+}
+
+.fa-angle-double-up {
+    color: orange;
+    height: 1.5em;
+}
+
+.fa-chevron-circle-up {
+    color: red;
+    height: 1.5em;
+}
+
+.form-group {
+    font-size: 20px;
+}
+
+.btn-create {
+    margin: 15px 0px;
+    color: white;
+    background-color: #4D5D7C;
+    border-color: #4D5D7C;
+    border-radius: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+.btn-create:hover {
+    color: white;
+}
+
+.btn-info {
+    margin: 15px 0px;
+    margin-left: 2%;
+    color: white;
+    background-color: #A5E4D4;
+    border-color: #A5E4D4;
+    border-radius: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+.btn-info:hover {
+    color: white;
+    outline: none;
+    border: 1px solid #A5E4D4;
+    background-color: #A5E4D4;
+}
+
+.btn-info:active,
+.btn-info:focus {
+    color: white;
+    outline: none;
+    border: 1px solid #A5E4D4;
+    background-color: #A5E4D4;
+}
