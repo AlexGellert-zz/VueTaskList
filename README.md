@@ -2,7 +2,7 @@
 ```
 have node.js installed
 npm install
-npm run server
+npm start
 ```
 
 # Vue Task List
